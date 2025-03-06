@@ -1,0 +1,105 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e;
+    color: #e0c3fc;
+}
+
+/* Header Styling */
+header {
+    background: #2a2a5a;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #a855f7;
+}
+
+h1 {
+    margin: 0;
+    color: #c084fc;
+    font-size: 2.5em;
+}
+
+/* Main Content Styling */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #3a3a66;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.6);
+}
+
+h2, h3 {
+    color: #d8b4fe;
+}
+
+/* Link Styling */
+a {
+    color: #d8b4fe;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Code Block Styling */
+pre {
+    background: #312450;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    color: #c084fc;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+}
+
+/* Checklist Styling */
+.checklist li {
+    cursor: pointer;
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #3a3a66;
+    transition: background 0.3s ease;
+}
+
+.checklist li:hover {
+    background: #4a4a80;
+}
+
+.checklist li.checked {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Details/Accordion Styling */
+details {
+    background: #3a3a66;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+details:hover {
+    background: #4a4a80;
+}
+
+summary {
+    font-weight: bold;
+    color: #d8b4fe;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2a2a5a;
+    margin-top: 30px;
+    border-top: 3px solid #a855f7;
+    font-size: 1em;
+}
